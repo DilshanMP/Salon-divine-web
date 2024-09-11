@@ -60,15 +60,15 @@
                             <ul>
                                 <li>
                                     <h6><i class="fa fa-map-marker"></i> Address</h6>
-                                    <p>No 25, Lake Road Boralasgamuwa, Sri Lanka</p>
+                                    <p>No 45,  Boralasgamuwa, Sri Lanka</p>
                                 </li>
                                 <li>
                                     <h6><i class="fa fa-phone"></i> Phone</h6>
-                                    <p><span>011-8536944</span><span>076-6221738</span></p>
+                                    <p><span>011-2048729</span><span>071-8847871</span></p>
                                 </li>
                                 <li>
                                     <h6><i class="fa fa-headphones"></i> Support</h6>
-                                    <p>Support.cutecutssaloon@gmail.com</p>
+                                    <p>Support.salondivne@gmail.com</p>
                                 </li>
                             </ul>
                         </div>
@@ -77,11 +77,8 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="contact__map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.
-                        1757918910467!2d79.9075251256773!3d6.841792825569206!2m3!1f0!
-                        2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a90a8a71517%3A0xf746ea7caf11e608!
-                        2sGreen%20Chilli!5e0!3m2!1sen!2slk!4v1583509849770!5m2!1sen!2slk" width="100%" height="400" frameborder="0" style="			
-                        border:0" allowfullscreen=""></iframe>
+                    <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" 
+                    src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=45,boralesgamuwa%20pasiyafb+(Salon%20Divine)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                 	</div>
             </div>
         </div>
