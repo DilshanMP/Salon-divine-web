@@ -3,7 +3,7 @@ Salon Divine - Online Reservation &amp; Ordering System
 
 # Salon Divine - Online Reservation & Ordering System
 
-![Salon Divine Logo](path-to-your-logo-image) <!-- Add the path to your logo here -->
+![Salon Divine Logo](img/logo.png)
 
 ## Project Overview
 
