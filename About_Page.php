@@ -66,7 +66,7 @@
     
         <div class="col-lg-7 col-md-6"  align="justify">
         	<p>Our staff wants to make sure that you get best possible experience, greeting every customer with a smile. We strive to provide 		
-            a pleasurable atmosphere and encourage you to give us feedback about your experience. At Cute Cuts Salon, we listen to our 
+            a pleasurable atmosphere and encourage you to give us feedback about your experience. At Salon Divine, we listen to our 
             customers. All of our trained technicians are state licensed, and we guarantee that you will get quality, consistent service each 
             time you visit our salon. Our face waxing is done by licensed and certified estheticians.</p>
         </div>
