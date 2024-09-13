@@ -438,7 +438,7 @@ if(isset($_POST['btnGoStyle'])){
     <li><a href="user_manager.php"><i class="fas fa-user-friends"></i>Users</a></li>  
      
     <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">  
-    	<li><a href="#"><button  type="submit" name="btnLogout" style="border:none; background:none; outline:none">
+    	<li><a href="#"><button  type="submit" name="btnLogout" style="border:none; background:none; outline:none;color:white">
     	<i class="fas fa-sign-out-alt"></i>Log Out</button></a></li>
    	</form>
    
@@ -456,10 +456,11 @@ if(isset($_POST['btnGoStyle'])){
     	<table class="table table-borderless" style="margin-top:12px;">
         	<tr>
             	<td>
-                	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
-                		<input type="text" name="txtServiceSearch" placeholder="Enter Service ID" required="required" />
-            			<button type="submit" name="btnServiceSearch">Search</button>
-                    </form>
+				<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+    <input type="text" name="txtProductSearch" placeholder="Search" required />
+    <button type="submit" name="btnProductSearch" style="background-color: #C03; color: #fff;">Search</button>
+</form>
+
                 </td>
                 
                 <td align="right">

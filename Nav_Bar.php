@@ -39,7 +39,7 @@ if(isset($_POST['btnSingIn'])){
 
         	
 				<a class="navbar-brand" href="index.php">
-				<img src="img/Logo.png" height="80" width="160" id="nav_logo"/>
+				<img src="img/Logo.png" height="60px" width="120px" id="nav_logo"/>
             	</a>
                 
                 <button class="navbar-toggler ml-5" data-toggle="collapse" aria-expanded="false" data-target="#contentID" id="navbar-toggler">

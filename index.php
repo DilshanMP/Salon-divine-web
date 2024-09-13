@@ -220,6 +220,156 @@ if(isset($_SESSION['LoginMsg'])){
 	</div>
 </div>
 <!-- End Slider -->
+<!-- Start Salon Gallery -->
+<div class="container mt-5">
+    <h2 class="text-center mb-5">Salon Divine Gallery</h2>
+    
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="img/gallery/image -01.png" class="card-img-top" alt="Salon Image 1">
+                <div class="card-body">
+                    <p class="card-text">Experience our luxurious services at Salon Divine.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="img/gallery/image-02.jpg" class="card-img-top" alt="Salon Image 2">
+                <div class="card-body">
+                    <p class="card-text">Top-notch facilities and professional service.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="img/gallery/image-03.jpg" class="card-img-top" alt="Salon Image 3">
+                <div class="card-body">
+                    <p class="card-text">Visit us to get a premium look!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="img/gallery/image-04.jpg" class="card-img-top" alt="Salon Image 4">
+                <div class="card-body">
+                    <p class="card-text">A relaxing environment just for you.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="img/gallery/image-05.jpg" class="card-img-top" alt="Salon Image 5">
+                <div class="card-body">
+                    <p class="card-text">Transform your style at Salon Divine.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="img/gallery/image-06.jpg" class="card-img-top" alt="Salon Image 6">
+                <div class="card-body">
+                    <p class="card-text">Get pampered with our professional care.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Salon Gallery -->
+
+<!-- Start Why Choose Us Section -->
+<div class="container mt-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <img src="img/why select.jpg" class="img-fluid" alt="Why Choose Us Image">
+        </div>
+        <div class="col-md-6">
+            <h2 class="mb-4">Why Choose Salon Divine?</h2>
+            <p>
+                At Salon Divine, we are committed to providing top-quality services that enhance your natural beauty. Our experienced staff ensures that each visit leaves you feeling refreshed, rejuvenated, and confident. We offer a wide variety of salon services ranging from haircuts, styling, coloring, to beauty treatments tailored to meet your needs.
+            </p>
+            <p>
+                We prioritize customer satisfaction and strive to create a relaxing, enjoyable environment for every client. With state-of-the-art facilities, the latest trends, and personalized care, we ensure a luxurious experience each time.
+            </p>
+         
+        </div>
+    </div>
+
+    <!-- Our Services Section -->
+    <div class="row mt-5" style =  border: "15px solid black;">
+        <div class="col text-center">
+            <h3 class="mb-4">Our Services</h3>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Haircut & Styling</h5>
+                    <p class="card-text">Get the perfect haircut or style that suits your personality.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Hair Coloring</h5>
+                    <p class="card-text">Trendy hair colors to give you a fresh, vibrant look.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Facials & Skincare</h5>
+                    <p class="card-text">Rejuvenate your skin with our expert facial and skincare treatments.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Nail Care</h5>
+                    <p class="card-text">Pamper your hands and feet with our manicures and pedicures.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Makeup & Bridal Services</h5>
+                    <p class="card-text">Look your best for special occasions with our professional makeup services.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Spa Treatments</h5>
+                    <p class="card-text">Relax and unwind with our exclusive spa and body treatments.</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <div class="text-center mt-5" style="padding-bottom:50px; align-item:center">
+                <a href="CreateAccount.php"><button class=" btn btn-info btn-lg" style=" font-weight:bold; width:50%"; border-radius: "50px";>Join Us</button></a>
+            </div>
+	
+</div>
+<!-- End Why Choose Us Section -->
+
+
+
+
+
+
 
 <!-- Footer Section Begin -->
 <?php include('Footer.php');?>

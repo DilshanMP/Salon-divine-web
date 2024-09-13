@@ -15,6 +15,9 @@ a:focus {
 
 .footer {
 	padding-top: 55px;
+	background-color: #dc3545;
+	color: white;
+	font-weight: bold;
 }
 
 .footer__about {
@@ -44,10 +47,11 @@ a:focus {
 }
 
 .footer__widget h6 {
-	color: #111111;
+	color: #ffffff;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 12px;
+	font-weight: bold;
 }
 
 .footer__widget ul{
@@ -64,11 +68,12 @@ a:focus {
 
 .footer__widget ul li {
 	list-style: none;
+	color: #ffffff;
 }
 
 .footer__widget ul li a {
 	font-size: 14px;
-	color: #666666;
+	color: #ffffff;
 	line-height: 30px;
 	text-align:left;
 	text-decoration:none;
@@ -85,10 +90,11 @@ a:focus {
 }
 
 .footer__newslatter h6 {
-	color: #111111;
+	color: #ffffff;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 25px;
+	font-weight: bold;
 }
 
 .footer__newslatter form {

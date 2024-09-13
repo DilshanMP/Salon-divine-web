@@ -3,7 +3,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Admin_Index</title>
+	
+    <title>Admin_Panel</title>
     
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -146,7 +147,7 @@ if(isset($_POST['btnSliderChange'])){
    		<img src="admin.jpg" width="60" height="60" style="border-radius:50%;-webkit-box-shadow: 0px 5px 8px #333333; margin-right:15px;"/>
     	Pasindu Dilshan
     </header>
-  <ul>
+  <ul>  
   	<li><a href="admin_index.php"><i class="fas fa-qrcode"></i>Dashboard</a></li>
     <li><a href="product_manager.php"><i class="fas fa-link"></i>Products</a></li>
     <li><a href="booking_manager.php"><i class="fas fa-stream"></i>Bookings <span style="color:#C00;font-weight:500;">
@@ -161,7 +162,7 @@ if(isset($_POST['btnSliderChange'])){
     	<i class="fas fa-sign-out-alt"></i>Log Out</button></a></li>
    	</form>
   </ul>
-  
+
 </div>
 
 
@@ -173,15 +174,16 @@ if(isset($_POST['btnSliderChange'])){
     	<table class="table table-borderless" style="margin-top:12px;">
         	<tr>
             	<td>
-                	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
-                		<input type="text" name="txtProductSearch" placeholder="Search" required />
-            			<button type="submit" name="btnProductSearch">Search</button>
-                    </form>
+				<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+    <input type="text" name="txtProductSearch" placeholder="Search" required />
+    <button type="submit" name="btnProductSearch" style="background-color: #C03; color: #fff">Search</button>
+</form>
+
                 </td>
                 
                 <td align="right">
                 
-                	<h2>Dashboard</h2>
+                	<h2>Admin Dashboard</h2>
                 </td>
               
             
@@ -514,7 +516,9 @@ if(isset($_POST['btnSliderChange'])){
 
     
     </div>
-           
+	<div class="container text-center mt-5">
+    <img src="./img/admin_salonlogo.png" alt="Salon Logo" class="img-fluid salon-logo" style="max-width: 200px;">
+</div>
  </div>
  
  

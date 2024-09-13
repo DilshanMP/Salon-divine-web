@@ -176,15 +176,15 @@ if(isset($_SESSION['SingUpMsg'])){
 <?php include('Nav_Bar.php');?>
 </div>
 
-<div class="container mb-5 pb-5" style="border-bottom:solid 1px #CCC">
+<div class="container mb-5 pb-10" style="border-bottom:solid 1px #CCC;">
 
 	<div class="row" align="center">
     	<div class="col-lg-12 m-auto">
-        	<h1 class="mt-4 mb-2">Login</h1>
+        	<h1 class="mt-4 mb-2" style="color:#DC3545">Login</h1>
         </div>
     </div>
 
-	<div class="row" style="border:solid #FFF 3px; background:url(img/login%20background.jpg); border-radius:50px;margin:0px 75px 0px 75px">
+	<div class="row" style="border:solid #FFF 3px; background:url(img/image.png); border-radius:50px;margin:0px 75px 0px 75px">
     
     	<div class="col-lg-4 mt-3 m-auto pt-3" align="center">
         	<h1 style="font-family:'Times New Roman', Times, serif; font-weight:700; text-align:center;position:relative">
@@ -194,7 +194,7 @@ if(isset($_SESSION['SingUpMsg'])){
              <div class="mt-4" align="center">
             
             	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
-            	<button type="submit" class="btn btn-outline-light" name="btnCreateAccount" style="height:45px;width:170px;">
+            	<button type="submit" class="btn btn-danger" name="btnCreateAccount" style="height:45px;width:170px;">
                 Create An Account</button> 
                 </form>
                  

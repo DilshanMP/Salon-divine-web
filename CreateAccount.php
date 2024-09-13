@@ -181,16 +181,16 @@ if(isset($_POST['btnSingUp'])){
 <?php include('Nav_Bar.php');?>
 </div>
 
-<div class="container mb-5 pb-5" style="border-bottom:solid 1px #CCC">
+<div class="container mb-5 pb-5" style="border-bottom:solid 1px #CCC; ">
 
 	<div class="row" align="center">
     	<div class="col-lg-12 m-auto">
-        	<h1 class="mt-4 mb-4">Sing Up</h1>
+        	<h1 class="mt-4 mb-4" style="color:#DC3545">Sing Up</h1>
         </div>
     </div>
 
-	<div class="row pt-5 pb-5" style="border:solid #FFF 3px; background-color:#f5f5f5; border-radius:50px;
-    	margin:0px 75px 0px 75px; -webkit-box-shadow: 0px 5px 8px #333333;">
+	<div class="row pt-5 pb-5" style="border:solid #FFF 3px;; border-radius:50px;
+    	margin:0px 75px 0px 75px; -webkit-box-shadow: 0px 5px 8px #333333; background:url(img/image.png);">
     
     	<div class="col-lg-12 m-auto" align="center">
         
@@ -203,7 +203,7 @@ if(isset($_POST['btnSingUp'])){
 
     		<div class="felid">
             	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post" enctype="multipart/form-data">
-            	<label class=" flb">choose profile</label>
+            	<label class=" flb" styele="background-color:#DC3545;color:white">choose profile</label>
 				<input type="file" name="profileImage" class="file_uploadBox" accept="image/*" onchange="showPreview(event);"/>
 								
 			</div>
