@@ -186,7 +186,8 @@ if(isset($_POST['btnProductSearch'])){
 	
 	
 	
-	$sql ="SELECT * FROM products where p_id = '".$_POST['txtProductSearch']."'";
+	$sql = "SELECT * FROM products WHERE p_id = '".$_POST['txtProductSearch']."' AND name = '".$_POST['txtNameSearch']."'";
+
 	
 	$result =mysqli_query($con,$sql);
 		

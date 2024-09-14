@@ -227,7 +227,8 @@ if(isset($_POST['btnfacials'])){
         </div>
     </div>
 
-    <div class="row" <?php if(isset($_POST['btnViewBooking'])){ ?> style="display:block"<?php }else{?> style="display:none" <?php } ?>>
+    <div class="row" <?php 
+    if(isset($_POST['btnViewBooking'])){ ?> style="display:block"<?php }else{?> style="display:none" <?php } ?>>
     <?php
     if(isset($_SESSION['booking_details'])){
     ?>
